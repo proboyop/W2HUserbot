@@ -7,7 +7,7 @@ from ..cmdhelp import CmdHelp
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "W2H User"
 aura = borg.uid
-W2H_IMG = "https://telegra.ph/file/771899ff757d01821ac12.jpg"
+W2H_IMG = "https://telegra.ph/file/5bbc26f65cdcfa08393d7.jpg"
 
 @bot.on(admin_cmd(pattern=f"hbping$", outgoing=True))
 @bot.on(sudo_cmd(pattern=f"hbping$", allow_sudo=True))
